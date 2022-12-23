@@ -1,0 +1,50 @@
+set shell powershell
+
+map w $pwsh
+
+map e $nvim $Env:f
+
+set scrolloff 16
+
+set icons true
+
+set ignorecase true
+
+map . set hidden!
+
+set info size:time
+
+set mouse true
+
+set drawbox
+
+map gd cd ~/Documents
+map gD cd ~/downloads
+map gc cd ~/appdata
+map gm cd E:/movies
+map g1 cd C:/
+map g2 cd D:/
+map g3 cd E:/
+map a push %mkdir<space>
+
+map f $lf $(fzf --height 60% --border --info inline)
+
+map <enter> $start $Env:f
+
+cmd paste &{{
+    set -- $(cat ~/.local/share/lf/files)
+    mode="$1"
+    shift
+    case "$mode" in
+        copy)
+            rsync -av --ignore-existing --progress -- "$@" . |
+            stdbuf -i0 -o0 -e0 tr '\r' '\n' |
+            while IFS= read -r line; do
+                lf -remote "send $id echo $line"
+            done
+            ;;
+        move) mv -n -- "$@" .;;
+    esac
+    rm ~/.local/share/lf/files
+    lf -remote "send clear"
+}}

@@ -1,0 +1,129 @@
+$ cd appdata/local
+$ cd appdata
+$ vim lfrc
+$ nvim lfrc
+$ mkdir nvim
+$ mkfile init.lua
+$ nvim init.lua
+$ mkdir lua
+$ mkdir genthus
+$ nvim init.lua
+$ nvim init.lua
+$ nvim init.lua
+$ mkdir after
+$ nvim plugin.lua
+$ nvim set.lua
+$ nvim packer.lua
+$ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+$ nvim theme.lua
+$ nvim keymap.lua
+$ nvim remap.lua
+: rm .prettierrc.json 
+$ del .prettierrc.json 
+$ refreshenv
+$ echo.>file.txt
+$ New-Item ./file.txt -ItemType file
+$ del file.txt 
+: help
+: help
+: h
+: man
+$ help
+$ nvim tsconfig.json
+$ explorer .
+$ nvim .
+$ nvim nvimWin.bat
+$ nvim lsp_config.lua
+$ sqlite chinook.db 
+$ sqlite3 chinook.db 
+$ nvim commands.txt
+$ sqlite3 chinook.db 
+$ nvim test.sql
+% mkdir github
+% mkdir first go project
+% mkdir firstGo
+$ nvim firstGo.go
+$ nvim greetings_test.go
+$ nvim greetings_tests.go
+$ nvim greetings_tests.go
+% mkdir intro
+: paste
+$ go work use ./example
+$ nvim toupper.go
+% mkdir web-service-gin
+$ go mod init example/web-service-gin
+$ nvim main.go
+$ git close hhtps://go.googlesource.com/example
+$ del hello.exe 
+$ del firstGo\\
+$ del firstGo
+$ del firstGo\\
+% mkdir workspace
+% mkdir hello
+$ go mod init example.com/hello
+$ go get golang.org/x/example
+$ nvim hello.go
+$ go work init ./hello
+$ go run .
+$ go run example.com/hello
+$ del pkg go.mod
+$ del pkg
+$ del go.mod 
+% mkdir hello
+$ go mod init example/hello
+$ nvim hello.go
+% mkdir greetings
+$ go mod init example.com/greetings
+$ nvim greetings.go
+$ del go.mod
+$ del go.sum
+$ go mod edit -replace example.com/greeting=../grettings
+$ go mod example.com/greetings
+$ nvim main.go
+$ go build
+% mkdir CTFM
+: git init
+$ git init
+$ nvim main.go
+$ nvim main.go
+% mkdir db
+$ nvim masterDB.sql
+: delete masterDB.sql 
+$ nvim database.go
+: del database_tests.go
+$ del database_tests.go
+$ del go.mod
+: help paste
+: h paste
+: help
+: docs
+$ nvim .gitignore
+$ go mod init
+% mkdir db
+$ go run .
+% mkdir advent2022
+$ nvim day1.go
+% mkdir day1
+% mkdir day2
+$ nvim day2.go
+% mkdir day3
+$ nvim day3.go
+% mkdir day20
+$ nvim day20.go
+$ git init
+% mkdir day20v2
+$ nvim day20.go
+% mkdir day4
+$ nvim day4.go
+% mkdir day21
+$ nvim day21.go
+% mkdir day5
+$ nvim day5.go
+% mkdir day_6
+$ nvim day6.go
+$ nvim day6.go
+$ nvim day6.go
+% mkdir day_8
+$ nvim day8.go
+% mkdir day_22
+$ nvim day22.go
