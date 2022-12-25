@@ -79,8 +79,6 @@ return require('packer').startup(function(use)
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
 
-    use { 'neoclide/coc.nvim', branch = 'release' }
-
     use 'tpope/vim-fugitive'
 
     use 'kyazdani42/nvim-web-devicons'
